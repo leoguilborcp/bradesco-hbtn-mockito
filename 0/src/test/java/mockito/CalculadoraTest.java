@@ -1,5 +1,7 @@
-package main.java.mockito;
+package test.java.mockito;
 
+import main.java.mockito.Calculadora;
+import main.java.mockito.ServicoMatematico;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
