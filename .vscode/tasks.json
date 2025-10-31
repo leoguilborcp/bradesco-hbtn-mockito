@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Maven Test",
+			"command": "mvn test -f 0/pom.xml",
+			"group": "test",
+			"problemMatcher": [
+				"$javac"
+			]
+		}
+	]
+}
